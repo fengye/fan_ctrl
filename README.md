@@ -28,5 +28,6 @@ Or, even better, running as a service
 ```shell
 $ sudo cp fan-ctrl.service /lib/systemd/system/ 
 $ sudo systemctl enable fan-ctrl.service
+$ sudo systemctl start fan-ctrl.service
 ```
 
