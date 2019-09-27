@@ -1,0 +1,11 @@
+[Unit]
+Description=PWM Fan Control
+
+[Service]
+Type=simple
+User=root
+ExecStart= /usr/bin/python /home/pi/Projects/fan_ctrl/fan_ctrl.py &
+Restart=always
+
+[Install]
+WantedBy=default.target
